@@ -11,7 +11,6 @@ export default function Home() {
       </Head>
 
 <body class="dark-mode">
-    <!-- Offline screen -->
     <div class="hide" style="width:100vw; height:100vh">
       <h1>Internetiühendus puudub <br><br> </h1>
       <p>1. Veendu, et internetiühendus oleks olemas.<br> </p>
@@ -57,7 +56,7 @@ export default function Home() {
                   Vali klass
                 </div>
              
-                <!--SideMenu-->
+        
              <div class="menu1 cross menu--1" >
                   <label class="MenuLabel">
                     <input class="menu1Check" type="checkbox" id="MenuHamburger">
@@ -91,7 +90,7 @@ export default function Home() {
                 </div>
                 </div>
               </div> 
-  <!--SideMenu-->
+  
   
             
               <p1 class="next-lesson-p-class" id="next-lesson-p-id"></p1>
@@ -138,7 +137,7 @@ export default function Home() {
           </div> 
 
       
-          <!--         <div id='progressbar1'></div> -->
+         
         <div class="main-screen-div-centering">
           <div class="timetable-today" id="timetable-today-id">
               
@@ -176,7 +175,7 @@ export default function Home() {
 
 
 
-<!--         <div class="profile-settings" id="profile-settings-id">
+
         <div class="option-icon" id="option1-icon"><img src="images/user-icon.png" class="usericon-class"><p1 class="profile-option" id="option-1">Profiil</p1></div>
         <div class="option-icon" id="option2-icon"><img src="images/notification.png" class="notif-class"><p1 class="profile-option" id="option-2">Teated</p1></div>
           <p1 class="profile-option" id="option-3">Option</p1>
@@ -310,7 +309,7 @@ export default function Home() {
     </section>
     <section class="tasksScreen hide screenClass " id="tasksScreen">
       <div class="allTasksWrapper" id="allTasksWrapper">
-       <!--  <div class="dayWrapper hide">
+      
           <div class="dayHeader">Homsed ülesanded <span>E 21.veebruar</span></div>
           <div class="taskWrapper">
             <div class="taskHeader">Ulesanded 21 vihikust</div>
@@ -339,7 +338,6 @@ export default function Home() {
         id="mainoption4-id" alt="ekool hinded 2"></img>
     </div>
 
-   <!--  <script src="serviceWorker.js"></script> -->
     <script src="cookies.js"></script>
     <script src="helperScripts.js"></script>
     <script src="createElem.js"></script>
